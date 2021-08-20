@@ -18,7 +18,7 @@ const Counter = () => {
     <div className="tweetForm__input">
       <div className="tweetForm__inputWrapper">
         <div className="tweetForm__count" role="status">
-          TODO : dummyTweet로 전달되는 데이터의 갯수를 보여줍니다.
+          TODO : {dummyTweets.length}
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Counter = () => {
 };
 
 const Footer = () => {
-  return <div></div>;
+  return <footer></footer>;
 };
 // TODO : Footer 함수 컴포넌트를 작성합니다. 시멘틱 엘리먼트 footer가 포함되어야 합니다.
 
@@ -65,6 +65,7 @@ const Features = () => {
       </div>
       <Tweets />
       TODO : Footer 컴포넌트를 작성합니다.
+      <Footer />
     </section>
   );
 };
