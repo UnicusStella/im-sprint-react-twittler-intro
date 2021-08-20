@@ -18,7 +18,7 @@ const Counter = () => {
     <div className="tweetForm__input">
       <div className="tweetForm__inputWrapper">
         <div className="tweetForm__count" role="status">
-          TODO : {dummyTweets.length}
+          Total : {dummyTweets.length}
         </div>
       </div>
     </div>
